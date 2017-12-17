@@ -31,6 +31,7 @@ const contains = (item, list, cb) => {
   for (let i = 0; i < list.length; i++) {
     list[i] === item ? cb(true) : cb(false);
   }
+  // cb(list.includes(item));
 };
 
 /* STRETCH PROBLEM */
